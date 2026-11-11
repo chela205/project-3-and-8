@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Contact The Little Things."><title>Contact | The Little Things</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script></head>
+<body><header class="site-header"><a class="brand" href="index.html">The Little Things</a><button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a aria-current="page" href="contact.html">Contact</a></nav></header>
+<main class="content-section narrow"><p class="eyebrow">We would love to hear from you</p><h1>Contact Us</h1><form id="contact-form">
+<label for="name">Full name</label><input id="name" name="name" type="text" required>
+<label for="email">Email address</label><input id="email" name="email" type="email" required>
+<fieldset><legend>Preferred way to be contacted</legend><label class="choice"><input type="radio" name="contact-method" value="Email" checked> Email</label><label class="choice"><input type="radio" name="contact-method" value="Phone"> Phone</label></fieldset>
+<label for="topic">Reason for contacting us</label><select id="topic" name="topic"><option>Feedback</option><option>Support</option><option>Collaboration</option></select>
+<label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+<label class="choice"><input type="checkbox" name="newsletter"> I would like to receive occasional updates.</label>
+<label class="choice"><input type="checkbox" name="followup"> I would like a reply to my message.</label>
+<div class="form-actions"><button class="button" type="submit">Send message</button><button class="button secondary" type="reset">Clear form</button></div>
+<p id="form-status" role="status" aria-live="polite"></p>
+</form><p class="note">Demonstration form: it shows a confirmation on this page but does not send or store messages.</p></main><footer><p>© 2026 The Little Things · <a href="https://www.instagram.com/">Instagram</a></p></footer></body></html>
