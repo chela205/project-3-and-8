@@ -1,0 +1,14 @@
+HTML5 FEATURES: CANVAS AND VIDEO
+
+HTML5 introduced native elements that make it easier to include multimedia and interactive content in websites. Two useful examples are the canvas and video elements.
+
+The canvas element provides a drawing area that can be controlled with JavaScript. Developers can use it to create charts, animations, simple games and visual demonstrations. It is useful because graphics can be generated dynamically in the browser without requiring a separate image for every change. Canvas is especially helpful when a page needs custom visual content that responds to user input.
+
+The video element allows a website to include video using a standard HTML element. It can provide controls such as play, pause and volume, and supports fallback text for browsers that do not support the element. This makes video easier to integrate than older approaches that depended on third-party browser plugins.
+
+Together, these features make modern websites more interactive and engaging. They also give developers more control over how multimedia is presented. However, developers should consider accessibility by providing captions for videos and alternatives or explanations for important canvas content. They should also optimise media so pages load efficiently.
+
+References:
+- MDN Web Docs, Canvas API: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+- MDN Web Docs, <video>: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+- WHATWG HTML Living Standard: https://html.spec.whatwg.org/

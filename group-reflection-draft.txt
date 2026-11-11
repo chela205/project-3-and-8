@@ -1,0 +1,13 @@
+GROUP REFLECTION — COMPLETE AFTER YOUR GROUP TESTS THE WEBSITE
+
+What worked well:
+We divided the website into pages and used a shared external stylesheet to keep the design consistent. The navigation links helped users move between the Home, Gallery, Blog and Contact pages.
+
+What broke or needed improvement:
+[Write the actual issue your group observed while testing. For example, describe whether the mobile navigation, a link or a form field needed adjustment.]
+
+How we fixed it:
+[Describe the actual change made and confirm that you tested it.]
+
+What we learned:
+We learned how HTML structures content, how CSS controls presentation and how JavaScript can add simple interaction. We also learned the importance of testing a website on different screen sizes.

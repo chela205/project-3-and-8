@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A student mini website project."><title>Contact | The Little Things</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head><body><header><div class="navwrap"><a class="brand" href="index.html">The Little Things</a><button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">☰</button><nav id="site-nav"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a href="contact.html" aria-current="page">Contact</a></nav></div></header><main>
+<p class="eyebrow">Let's connect</p><h1>Say hello.</h1><p>Have a question, suggestion or kind thought to share? Use the form below.</p>
+<p>This is a front-end demonstration form for the assignment. It validates the fields and displays a confirmation, but it does not send or store messages.</p>
+<form id="contact-form">
+<div class="field"><label for="name">Full name *</label><input id="name" name="name" placeholder="Enter your name" required></div>
+<div class="field"><label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="name@example.com" required></div>
+<div class="field"><label for="subject">Subject *</label><input id="subject" name="subject" placeholder="What is your message about?" required></div>
+<fieldset><legend>Preferred contact method</legend><label><input type="radio" name="contact" value="Email"> Email</label><label><input type="radio" name="contact" value="Phone"> Phone</label></fieldset>
+<fieldset><legend>Stay connected</legend><label><input type="checkbox" name="newsletter"> Subscribe to newsletter</label><label><input type="checkbox" name="updates"> Receive updates</label></fieldset>
+<div class="field"><label for="reason">Reason for contact *</label><select id="reason" name="reason" required><option value="">Choose a reason</option><option>Feedback</option><option>Support</option><option>Collaboration</option></select></div>
+<div class="field"><label for="message">Your message *</label><textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea></div>
+<button class="button" type="submit">Send message</button> <button type="reset">Clear form</button><p id="form-message" role="status" aria-live="polite"></p>
+</form>
+</main><footer><p>© <span data-year></span> The Little Things. Created for learning.</p><a href="https://www.instagram.com/">Instagram</a><a href="https://www.linkedin.com/">LinkedIn</a></footer><script src="script.js"></script></body></html>
